@@ -20,7 +20,7 @@ body {
   padding: 16px;
   margin: 10px auto;
   min-width: 400px;
-  max-width: 900px;
+  max-width: 400px;
   text-align: center;
   color: #fb8500;
   height: 135px;
@@ -146,5 +146,37 @@ body {
   100% {
     transform: rotate(1800deg);
   }
+}
+
+@media (max-width: 450px) {
+  .question {
+    background-color: #023047;
+    border-radius: 10px;
+    border: 1px solid #023047;
+    padding: 6px;
+    margin: 10px auto;
+    min-width: 400px;
+    max-width: 300px;
+    text-align: center;
+    color: #fb8500;
+    font-size: 12px;
+    height: 135px;
+  }
+  
+  .button-overall {
+    column-count: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 225px;
+  }
+  
+  .end-text { 
+    color: #fb8500;
+    font-size: 25px;
+  }
+
+  
 }
 
